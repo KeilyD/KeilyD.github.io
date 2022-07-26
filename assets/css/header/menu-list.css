@@ -1,0 +1,46 @@
+@media screen and (min-width: 0) {
+   .menu__list {
+    display: none;
+    transform: translateY(-200%);
+  } 
+
+   .open .menu__list {
+    display: block;
+    margin-top: 2rem;
+    text-align:2rem center;
+    transform: translateY(0);
+    width: 100%; 
+    
+  } 
+  
+   .open .menu__list__item__link {
+     display: inline-block;
+    padding-block: 1.5rem;
+    width: 100%;
+    gap: 5rem; 
+    
+    
+  } 
+
+   .open .menu__list__item:hover {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    
+  } 
+}
+
+@media screen and (min-width: 768px) {
+   .menu__list {
+    display: flex;
+    gap: 2rem;
+    transform: translateY(0);
+    font-size: 1.5rem;
+   
+
+    
+  } 
+
+   .menu__list__item:hover {
+    text-decoration: underline;
+  } 
+}

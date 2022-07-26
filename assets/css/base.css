@@ -1,0 +1,56 @@
+:root {
+  --main-color: #ffa1af;
+  --main-color-hover: #ff5f77;
+  --invalid: #ff1639;
+  --bg-color: #333333;
+  --light-bg-color: #ffd2d9;
+  --light-text-color: #fdfdfd;
+  --dark-text-color: #131313;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  overflow: overlay;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--light-text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container {
+  padding-block: 4rem;
+}
+
+@media screen and (min-width: 0) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-inline: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-inline: 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding-inline: 10rem;
+  }
+}

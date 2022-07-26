@@ -1,0 +1,38 @@
+.about-me {
+  /* background-color: var(--light-bg-color); */
+  background-color: rgb(246, 143, 215);
+  color: var(--dark-text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+
+ 
+}
+
+.about-me__title {
+  text-align: left;
+  
+}
+
+.about-me__content {
+
+  line-height: 2.0;
+  /* padding-top: 2rem; */
+
+}
+
+@media screen and (min-width: 0) {
+  .about-me__content {
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-me__content {
+    text-align: left;
+    width: 70%;
+  }
+}
